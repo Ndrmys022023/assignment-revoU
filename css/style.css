@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    padding: 10px;
+    align-items: center;
+    background-color: rgba(13, 26, 82, 0.986);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    padding-top: 90px
+}
+
+img{
+    width: 60px;
+    margin-left: 12px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.nav-item {
+    border: 1px solid;
+    border-radius: 10%;
+    padding: 8px;
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cadetblue;
+    margin: 2px;
+}
+
+article {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+h1 {
+    color: rgb(14, 14, 95);
+    font-family: "Rowdies", sans-serif;
+    font-weight:700;
+    font-style: normal
+}
+
+p {
+    color: rgba(61, 60, 60, 0.637);
+}
+
+.main-container{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+
+.main-container-art{
+    width: 57%;
+    height: 700px;
+    display: block;
+}
+
+.banner {
+    width: 100%;
+    height: 430px;
+    background-color: rgba(126, 122, 122, 0.233);
+    border-radius: 3%;
+}
+
+.kata {
+    margin-top:50px;
+    display: grid;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.profile {
+    margin-top: 50px;
+    width: 45%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.icon {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+form {
+    width: 37%;
+    height: 700px;
+    background-color: rgba(126, 122, 122, 0.233);
+    border-radius: 3%;
+}
